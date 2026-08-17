@@ -1,17 +1,64 @@
-# random_quote_generator
+# Random Quote Generator
+Simple and customizable Random Quote Generator built with Flutter & Dart.
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)](https://dart.dev)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) <!-- Update if different -->
+
+A lightweight app that displays inspiring, funny, or thought-provoking quotes at the tap of a button. Ideal for learning Flutter, experimenting with APIs, or embedding into larger apps.
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Demo / Screenshots](#demo--screenshots)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Customize](#customize)
+- [Architecture](#architecture)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## Features
+
+- One-tap random quote generation
+- Option to fetch quotes from a remote API or local JSON
+- Simple, clean UI with smooth animations
+- Share quotes to other apps
+- Light and dark theme support
+- Easy to extend with more quote sources or categories
+
+---
+
+## Demo / Screenshots
+
+Replace these with actual screenshots in `/assets` or your repo:
+
+- assets/screenshot-1.png — Home screen with quote
+- assets/screenshot-2.png — Share sheet
+
+Tip: Add a short GIF to show the randomization animation.
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter (>= 3.x)
+- Dart (comes with Flutter)
+- Android Studio / VS Code (recommended)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Install Flutter: https://flutter.dev/docs/get-started/install
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone and run:
+
+```bash
+git clone https://github.com/<your-username>/RandomQouteGenerator.git
+cd RandomQouteGenerator
+flutter pub get
+flutter run
